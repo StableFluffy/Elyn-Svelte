@@ -1,0 +1,8 @@
+{
+    "build": {
+      "beforeDevCommand": "deno task dev",
+      "beforeBuildCommand": "deno task build",
+      "devUrl": "http://localhost:5173",
+      "frontendDist": "../build"
+    }
+  }
